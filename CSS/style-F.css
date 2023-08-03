@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: montserrat;font-size: 16px;color: #333333;margin: 0
+}
+
+.head-nho{
+	width: 100%;height: 50px;min-height: 50px;background-color: #67BF68
+}.head-nho p{
+	color: white
+}
+header{
+	width: 100%;height: 60px;position: absolute;left: 0;top: 50px
+}
+.logo-h{
+	width: 100%;min-height: 50px;padding-top: 10px
+}
+.menu{
+	padding-top: 15px1
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex;justify-content: center;white-space: nowrap;padding-top: 20px;
+}
+.menu ul li a{
+	text-decoration: none;padding: 10px 15px;color: #282828;display: block
+}
+.menu ul li a:hover{
+	background-color: #1D9C1E;color: white;border-radius: 5px;
+}
+.icon-head{
+	padding: 30px 15px;display: flex; 
+}
+.icon-head a{
+	 padding: 10px
+}
+.menu ul li{
+	position: relative
+}
+.menu ul li .sub-menu{
+	position: absolute;left: 0;top:100%;display: flex;flex-direction: column;width: 220px;background-color: #26B945;color: #E7E240;display: none;z-index: 9999
+}
+.menu ul li:hover .sub-menu{
+	display: block
+}
+.menu ul li .sub-menu li{
+	border-bottom: 1px dotted #838383
+}
+.menu ul li .sub-menu li a{
+	color: white
+}
+.menu ul li .sub-menu li a:hover{
+	color: yellow;
+}
+#banner{
+	width: 100%;padding-top: 110px
+}
+
+.tieude{
+	color: #1D9C1E;font-size: 35px;padding-top:30px
+}
+#slider .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slider .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 
+}
+.text-xanh{
+	color: #1D9C1E
+}
+.text-do{
+	color: #AB0B0D
+}
+.text-xam{
+	color: #A6A6A6
+}
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+.vien{
+	border: 1px solid #BEBEBE;border-radius: 5px;overflow: hidden;padding-bottom: 20px
+		
+}
+.vien h3{
+	padding-left: 10px
+		
+}
+.vien p{
+	padding-left: 10px;padding-right: 10px
+}
+.hinh{
+	transition: all .2s ease-in-out;
+}
+.vien:hover .hinh{
+	transform: scale(1.2);
+}
+#sp-moi .hinh{
+	position: relative;overflow: hidden
+}
+#sp-moi .icon{
+	position: absolute;width: 70%;height: 40px;left: 10%;top:110%;display: flex;justify-content: space-around;transition: all 1s
+}
+#sp-moi .icon a{
+	width: 30px;height: 30px;background-color: #E1E1E1;border-radius: 50%;display:flex;justify-content: center;align-items: center;text-decoration: none;color:#096F0D
+}
+#sp-moi .icon a:hover{
+	background-color: #B83133;color: white
+}
+#sp-moi .hinh:hover .icon{
+	top:50%
+}
+#contact{
+	width: 100%;min-height: 500px;background-image: url("../image/nen-con.png");background-repeat: no-repeat;background-size: cover; background-position: center top
+}
+.shadow{
+	width: 100%;min-height: 300px;padding: 20px;box-shadow: 5px 5px 5px gray;border: 1px solid #F8F8F8
+}
+.form-control{
+	width: 100%;padding: 10px;margin-bottom: 8px;border-radius: 5px
+}
+.tieude2{
+	color: white;font-size: 35px;padding-top: 30px
+}
+.tieude-gt{
+	color: #1D9C1E;font-size: 28px
+}
+.hinh-n{
+	border-radius: 5px
+}
+.vien-tt{
+	width: 100%;padding: 8px
+}
+.vien-tt h4{
+	font-size: 16px
+}
+.vien-tt a{
+	text-decoration: none;color: #2F2F2F
+}
+.vien-tt a:hover{
+	color: #1B8108
+}
+footer{
+	width: 100%;min-height: 460px; background-color: #F5F5F5
+}
+footer a{
+	text-decoration: none; color:#666666; font-weight: bold; padding: 10px; border-radius: 15px
+}
+footer a:hover{
+	color: #1D9C1E
+}
+.tieude-f{
+	padding-top: 120px
+}
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
